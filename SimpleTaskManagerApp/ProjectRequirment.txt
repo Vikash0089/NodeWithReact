@@ -1,0 +1,13 @@
+1. task-frontend 
+   npx create-react-app task-frontend
+       -> src folder
+           - componenets
+                 -all components file
+          - App.js
+          - App.css
+(npm i axios)
+
+2 task-manager-backend
+  npm install
+  (npm i express , mongoose , cors)
+               
