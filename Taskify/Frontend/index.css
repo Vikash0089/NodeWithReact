@@ -1,0 +1,107 @@
+/* src/index.css */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.App {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #444;
+    margin-bottom: 20px;
+}
+
+form {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.task-item {
+    background: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+}
+
+.task-item h3 {
+    margin: 0;
+    font-size: 18px;
+    color: #007bff;
+}
+
+.task-item p {
+    margin: 5px 0;
+    color: #555;
+}
+
+.task-item button {
+    background-color: #dc3545;
+    padding: 5px 10px;
+    font-size: 14px;
+}
+
+.task-item button:hover {
+    background-color: #c82333;
+}
+
+@media (max-width: 768px) {
+    .App {
+        padding: 10px;
+    }
+
+    form {
+        padding: 15px;
+    }
+
+    input {
+        font-size: 14px;
+    }
+
+    button {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+
+    .task-item h3 {
+        font-size: 16px;
+    }
+
+    .task-item p {
+        font-size: 14px;
+    }
+}

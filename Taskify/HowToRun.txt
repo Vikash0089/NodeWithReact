@@ -1,0 +1,18 @@
+
+in backend 
+
+ npm i init -y
+ npm i express, mongooes,cors,dotenv
+ run code  node server.js
+ in frontend 
+
+ npx create-react-app frontend
+
+  then setup/edit  as it is i am providing folder 
+
+   npm  i axios 
+
+   rum code  npm start
+
+   
+
