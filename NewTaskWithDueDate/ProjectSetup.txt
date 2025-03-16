@@ -1,0 +1,17 @@
+**backend **
+cd backend
+npm i init -y
+
+npm i express, cors , dotenv , mongoose
+
+run code  , node app.js
+
+
+**frontend**
+
+npm create-react-app frontend 
+cd frontend
+ 
+ npm i axios , @mui/material @emotion/react @emotion/styled @mui/icons-material
+
+ npm start
