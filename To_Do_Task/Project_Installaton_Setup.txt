@@ -1,0 +1,14 @@
+Backend
+
+npm i init -y 
+npm i express, cors, mongoose
+cd Backend
+node server.js
+
+
+frontend 
+npx create-react-app frontend
+cd frontend
+npm i axios, ui material all 
+
+npm start
